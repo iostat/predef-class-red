@@ -13,7 +13,7 @@ object Hello {
     ))
 
     foobar.notRed(Array(
-      classOf[scala.Option[_]], classOf[scala.util.Try[_]], this.getClass,
+      classOf[scala.Option[_]], classOf[scala.util.Try[_]], classOf[Hello.type],
       classOf[Object], classOf[com.example.CustomType], classOf[Integer]
     ))
   }
